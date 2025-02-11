@@ -130,7 +130,7 @@ This project is **open-source** and available under the **MIT License**.
 ---
 
 ## 📧 Contact & Support
-- **Author:** Your Name
-- **GitHub:** [@yourusername](https://github.com/yourusername)
-- **Email:** your-email@example.com
+- **Author:** Shah Jalal
+- **GitHub:** [@shah-jalal](https://github.com/shah-jalal)
+- **Email:** shah7097tn@gmail.com
 
