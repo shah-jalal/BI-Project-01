@@ -1,10 +1,9 @@
-/*--------------------------------------------------------------------
+/*-------------------------------------------------------------------------------------
 CREATE VIEWS FOR HospitalDB 
---------------------------------------------------------------------
-Name   : vwDoctorAppointments, vwPatientsPerDepartment
-Link   : http://www.sample-database/
+---------------------------------------------------------------------------------------
+Name   : DoctorAppointments (Displays the total number of appointments each doctor has)
 Version: 1.0
---------------------------------------------------------------------*/
+---------------------------------------------------------------------------------------*/
 
 -- View for Doctor-wise Appointments
 CREATE VIEW DoctorAppointments AS
@@ -16,6 +15,11 @@ FROM Doctors d
 LEFT JOIN Appointments a ON d.DoctorID = a.DoctorID
 GROUP BY d.Name, d.Specialty;
 GO
+
+/*-----------------------------------------------------------------------------------------------
+Name   : PatientsPerDepartment (Calculates the total number of patients admitted per department)
+Version: 1.0
+--------------------------------------------------------------------------------------------------*/
 
 -- View for Patients Admitted per Department
 CREATE VIEW PatientsPerDepartment AS
