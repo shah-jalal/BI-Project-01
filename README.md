@@ -85,13 +85,13 @@ EXEC ScheduleAppointment @PatientID = 5, @DoctorID = 2, @AppointmentDate = '2025
 ```
 #### **Retrieve Patient Medical History**
 ```sql
-EXEC GetPatientHistory @PatientID = 10;
+EXEC GetPatientHistory @PatientID = 5;
 ```
 
 ### **Views for Reporting**
 #### **Doctor-wise Appointments Report**
 ```sql
-SELECT * FROM DoctorAppointments;
+SELECT * FROM Appointments;
 ```
 #### **Patients Admitted per Department**
 ```sql
@@ -105,9 +105,9 @@ SELECT * FROM PatientsPerDepartment;
 ```sql
 SELECT TOP 5 * FROM DoctorAppointments ORDER BY TotalAppointments DESC;
 ```
-### **List Departments with Most Admitted Patients**
+### **List Departments with Least Admitted Patients**
 ```sql
-SELECT * FROM PatientsPerDepartment ORDER BY TotalPatients DESC;
+SELECT * FROM PatientsPerDepartment ORDER BY TotalPatientsAdmitted DESC;
 ```
 ### **Check Outstanding Bills**
 ```sql
