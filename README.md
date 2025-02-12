@@ -43,8 +43,8 @@ Ensure you have **Microsoft SQL Server** installed and running.
 
 ### **2️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/your-username/HospitalDB.git
-cd HospitalDB
+git clone https://github.com/shah-jalal/BI-Project-01.git       
+cd BI-Project-01
 ```
 
 ### **3️⃣ Create Database & Tables**
