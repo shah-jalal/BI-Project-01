@@ -107,7 +107,7 @@ SELECT TOP 5 * FROM DoctorAppointments ORDER BY TotalAppointments DESC;
 ```
 ### **List Departments with Least Admitted Patients**
 ```sql
-SELECT * FROM PatientsPerDepartment ORDER BY TotalPatientsAdmitted DESC;
+SELECT * FROM PatientsPerDepartment ORDER BY TotalPatientsAdmitted ASC;
 ```
 ### **Check Outstanding Bills**
 ```sql
