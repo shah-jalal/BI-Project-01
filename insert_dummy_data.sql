@@ -1,4 +1,5 @@
--- Insert Dummy Data (50+ records each)
+/*** Insert Dummy Data ***/
+
 INSERT INTO Departments (DepartmentName)
 VALUES ('Cardiology'), ('Neurology'), ('Orthopedics'), ('Pediatrics'), ('General Surgery');
 GO
@@ -21,6 +22,24 @@ VALUES
 ('Andy Rodger', '1995-09-25', 'Male', '456-789-1260', '700 Jefferson St'),
 ('Josh Allen', '1987-02-16', 'Male', '789-120-4444', '578 Oak Grove');
 GO
+
+INSERT INTO Prescriptions (AppointmentID, Medicine, Dosage, Instructions)
+VALUES
+(1, 'Paracetamol', '500mg', 'Take one tablet every 6 hours with water'),
+(2, 'Amoxicillin', '250mg', 'Take two capsules twice daily after food'),
+(3, 'Ibuprofen', '400mg', 'Take one tablet every 8 hours as needed for pain'),
+(4, 'Metformin', '850mg', 'Take one tablet before breakfast daily'),
+(5, 'Atorvastatin', '10mg', 'Take one tablet at bedtime with food'),
+(6, 'Losartan', '50mg', 'Take one tablet in the morning daily'),
+(7, 'Omeprazole', '20mg', 'Take one capsule before meals for 14 days'),
+(8, 'Levothyroxine', '100mcg', 'Take on an empty stomach in the morning'),
+(9, 'Aspirin', '81mg', 'Take one tablet daily with a full glass of water'),
+(10, 'Ciprofloxacin', '500mg', 'Take one tablet twice daily for 7 days'),
+(11, 'Cetirizine', '10mg', 'Take one tablet daily for allergies'),
+(12, 'Metoprolol', '25mg', 'Take one tablet twice daily with food'),
+(13, 'Doxycycline', '100mg', 'Take one capsule twice daily for 10 days'),
+(14, 'Prednisone', '5mg', 'Take one tablet daily with food for 7 days'),
+(15, 'Hydrochlorothiazide', '12.5mg', 'Take one tablet in the morning daily');
 
 -- Generate 50 Appointments
 INSERT INTO Appointments (PatientID, DoctorID, AppointmentDate, Status)
