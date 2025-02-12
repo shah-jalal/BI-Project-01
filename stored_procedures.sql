@@ -1,9 +1,10 @@
 /*
 -------------------------------------------------------------------------------------------------------------------------------
-CREATE STORE PROCEDURES FOR HospitalDB 
+CREATE STORE PROCEDURES
 -------------------------------------------------------------------------------------------------------------------------------
-Name				: ScheduleAppointment (Insert data to Schedule a new Appointments)
-Input Parameters	: PatientID, DoctorID, AppointmentDate & Status
+Name				: ScheduleAppointment 
+Description			: Insert data to Schedule a new Appointments
+Input Parameters	: @PatientID, @DoctorID, @AppointmentDate & @Status
 Validations			: If you try to insert an invalid status (Pending, Rescheduled, etc.), SQL Server will 
 					  throw an error because the Status column is restricted to only accept: (Scheduled, Completed, Cancelled)
 Version:			: 1.0
@@ -33,7 +34,8 @@ GO
 
 /*
 ---------------------------------------------------------------------------------------------------------
-Name				: GetPatientHistory (Retrieves the complete medical history of a patient)
+Name				: GetPatientHistory 
+Description			: Retrieves the complete medical history of a patient
 Input Parameters	: @PatientID
 Version:			: 1.0
 ----------------------------------------------------------------------------------------------------------*/

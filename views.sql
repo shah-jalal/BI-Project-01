@@ -1,8 +1,9 @@
 /*-------------------------------------------------------------------------------------
-CREATE VIEWS FOR HospitalDB 
+CREATE VIEWS 
 ---------------------------------------------------------------------------------------
-Name   : DoctorAppointments (Displays the total number of appointments each doctor has)
-Version: 1.0
+Name		: DoctorAppointments 
+Description : Displays the total number of appointments each doctor has
+Version		: 1.0
 ---------------------------------------------------------------------------------------*/
 
 -- View for Doctor-wise Appointments
@@ -17,8 +18,9 @@ GROUP BY d.Name, d.Specialty;
 GO
 
 /*-----------------------------------------------------------------------------------------------
-Name   : PatientsPerDepartment (Calculates the total number of patients admitted per department)
-Version: 1.0
+Name		: PatientsPerDepartment 
+Description	: Calculates the total number of patients admitted per department
+Version		: 1.0
 --------------------------------------------------------------------------------------------------*/
 
 -- View for Patients Admitted per Department
