@@ -1,0 +1,26 @@
+FullName	DOB	Gender	Contact	Address
+Henry Mitchell	9/15/1980	Male	555-1247	123 Sunset Blvd, NY
+Ella Richardson	6/28/1992	Female	555-9856	456 Moonlight Ave, CA
+Owen Foster	2/11/1984	Male	555-7623	789 Evergreen Rd, TX
+Lily Murphy	11/7/1997	Female	555-4531	321 River Lane, FL
+Jack Simmons	3/22/1989	Male	555-2148	852 Thunder Blvd, IL
+Zoey Peterson	7/30/1995	Female	555-9485	963 Sunrise St, WA
+Isaac Gonzalez	5/12/1986	Male	555-7315	741 Forest Ct, NV
+Avery Bennett	12/24/1998	Female	555-8126	258 Lakewood Dr, MI
+Sebastian Reed	10/5/1983	Male	555-9428	159 Crystal St, AZ
+Harper Torres	1/14/1996	Female	555-8673	357 Meadow Ave, CO
+Julian Wright	8/20/1991	Male	555-4625	654 Birchwood Rd, GA
+Savannah Hill	9/29/1994	Female	555-3847	951 Mapleview Ln, VA
+Adam Fisher	7/13/1987	Male	555-1359	753 Sequoia Ct, MO
+Leah Collins	2/16/1993	Female	555-9863	369 Willowbrook Dr, KY
+Evan Russell	4/18/1985	Male	555-6427	852 Redwood St, OR
+Brooklyn Diaz	6/22/1999	Female	555-5734	147 Whispering Blvd, TN
+Xavier Martin	12/9/1978	Male	555-2746	369 Oakridge Rd, SC
+Caroline Adams	7/3/1990	Female	555-3185	753 Hazelwood Ave, MA
+Jason Cooper	5/27/1982	Male	555-4769	159 Timber Rd, WI
+Stella Rogers	11/15/1995	Female	555-8632	654 Elmwood Ct, MN
+Dominic Carter	3/11/1981	Male	555-2348	951 Pinehill St, OK
+Victoria Evans	10/28/1998	Female	555-7431	357 Lakeview Ave, LA
+Hudson Brooks	6/14/1986	Male	555-8265	123 Riverbend Rd, IN
+Penelope Foster	1/7/1997	Female	555-9274	741 Boulder Ln, NE
+Caleb Watson	8/19/1984	Male	555-5348	258 Mountain St, ND

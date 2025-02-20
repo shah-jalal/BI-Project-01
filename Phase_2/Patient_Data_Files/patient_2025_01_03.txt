@@ -1,0 +1,16 @@
+FullName	DOB	Gender	Contact	Address
+Mason Phillips	1983-02-20	Male	555-1285	123 Oceanview Blvd, NY
+Aurora Bennett	1996-09-11	Female	555-8467	456 Sunset Dr, CA
+Leo Ramirez	1980-04-15	Male	555-9472	789 Canyon Rd, TX
+Scarlett Hayes	1994-07-22	Female	555-5629	321 Skyline Lane, FL
+Eli Patterson	1989-05-18	Male	555-7326	852 Rocky Blvd, IL
+Lillian Morgan	1998-11-27	Female	555-9583	963 Crescent St, WA
+Samuel Wood	1985-10-14	Male	555-2749	741 Hillside Ct, NV
+Bella Stewart	1992-06-09	Female	555-4367	258 Brookside Dr, MI
+Jackson Rivera	1987-12-30	Male	555-8495	159 Pinecrest St, AZ
+Madeline Cox	1995-03-08	Female	555-7142	357 Evergreen Ave, CO
+Gabriel Foster	1981-08-05	Male	555-3857	654 Timberline Rd, GA
+Lucy Simmons	1999-04-16	Female	555-2673	951 Meadowview Ln, VA
+Logan Campbell	1984-11-02	Male	555-9631	753 Baywood Ct, MO
+Addison Powell	1997-07-19	Female	555-3574	369 Whispering Pine Dr, KY
+Nathaniel James	1979-01-25	Male	555-4128	852 Aspen Ridge Rd, OR
