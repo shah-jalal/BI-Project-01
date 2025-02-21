@@ -4,8 +4,8 @@ GO
 CREATE TABLE ETL_Log (
     LogID INT IDENTITY(1,1) PRIMARY KEY,
     PreviousRowCount INT,
-    CurrentRowCount INT,
     TotalRowsLoaded INT,
+    CurrentRowCount INT,
     FileName VARCHAR(255),
     LoadDate DATETIME DEFAULT GETDATE(),
     AdditionalInfo VARCHAR(500)
