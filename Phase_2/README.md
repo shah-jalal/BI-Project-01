@@ -17,7 +17,7 @@ This SSIS package extracts patient data from multiple CSV files, processes and l
    
 3. **Handle Duplicate Records:** 
    To prevent duplicate patient records:
-   - A **UNIQUE constraint** is added to the `Patients` table on (`FullName`, `DateOfBirth`, `ContactNumber`). 
+   - A **UNIQUE constraint** is added to the `Patients` table on (`FullName`, `DOB`, `Contact`). 
    - A **Lookup Transformation** checks if the patient already exists in the `Patients` table.
    - If a match is found (based on `FullName`, `DOB`, and `Contact`), the record is **excluded** from insertion.
    - Only new records are inserted into the `Patients` table.
